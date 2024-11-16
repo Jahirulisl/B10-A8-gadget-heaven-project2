@@ -1,11 +1,16 @@
 import { NavLink } from "react-router-dom";
 import Banner from "../Banner/Banner";
+
 const NavBar = () => {
-    // const links = <>
-    // <li> <NavLink to="/">Home</NavLink></li>
-    // <li> <NavLink to="/Statistic">Statistic</NavLink></li>
-    // <li> <NavLink to="/Dashboard">Dashboard</NavLink></li>
-    //   </>
+    const links= <>
+        <li><NavLink to="/">Home</NavLink></li>
+
+        <li><NavLink to="static">Statistic</NavLink></li>
+        <li><NavLink to="dashboard">Dashboard</NavLink></li>
+    
+    </>
+
+    
     return (
         <div className=" bg-pink-500 h-auto mx-auto">
         <div className="navbar text-white">
@@ -16,9 +21,7 @@ const NavBar = () => {
 
          <div className="navbar-center  lg:flex ">
              <ul className="menu menu-horizontal px-1 text-lg">
-               <li><a>Home</a></li>
-               <li><a>Statistic</a></li>
-               <li><a>Dashboard</a></li>
+              {links}
             </ul>
          </div>
 
@@ -26,9 +29,9 @@ const NavBar = () => {
           <a className="btn">Button</a>
          </div>
        </div>
-       <div>
+       {/* <div>
           <Banner></Banner>
-       </div>
+       </div> */}
        
    </div>
     );
