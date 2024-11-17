@@ -13,27 +13,23 @@ const NavBar = () => {
     
     return (
         <div className=" bg-pink-500 h-auto mx-auto">
-        <div className="navbar text-white">
+          <div className="navbar text-white">
 
            <div className="navbar-start">
              <a className="btn btn-ghost font-bold text-2xl">Gadget Heaven</a>
            </div>
 
-         <div className="navbar-center  lg:flex ">
-             <ul className="menu menu-horizontal px-1 text-lg">
+          <div className="navbar-center  lg:flex ">
+              <ul className="menu menu-horizontal px-1 text-lg">
               {links}
-            </ul>
-         </div>
+             </ul>
+          </div>
 
-         <div className="navbar-end">
-          <a className="btn">Button</a>
+            <div className="navbar-end">
+             <a className="btn">Button</a>
+            </div>
          </div>
-       </div>
-       {/* <div>
-          <Banner></Banner>
-       </div> */}
-       
-   </div>
+     </div>
     );
 };
 

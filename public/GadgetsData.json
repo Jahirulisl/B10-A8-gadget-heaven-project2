@@ -5,9 +5,9 @@
       "product_title": "Galaxy S21",
       "product_image": "https://i.ibb.co.com/WzWbvYg/flat-travel-exploration-youtube-channel-art-23-2150001427.jpg",
       "category": "Smartphones",
-      "price": 799,
+      "price": 799, 
       "description": "High-end smartphone with advanced camera.",
-      "specification": ["8GB RAM", "128GB Storage", "Triple Camera"],
+      "specification": ["8GB RAM", "128GB Storage", "Triple Camera","Touchscreen"],
       "availability": true,
       "rating": 4.5
     },
@@ -18,7 +18,7 @@
       "category": "Smartphones",
       "price": 999,
       "description": "Apple's latest iPhone with powerful performance.",
-      "specification": ["6GB RAM", "64GB Storage", "Dual Camera"],
+      "specification": ["6GB RAM", "64GB Storage", "Dual Camera","Touchscreen"],
       "availability": true,
       "rating": 4.7
     },
@@ -29,7 +29,7 @@
       "category": "Smartphones",
       "price": 729,
       "description": "Smooth and fast with a stunning display.",
-      "specification": ["12GB RAM", "256GB Storage", "Quad Camera"],
+      "specification": ["12GB RAM", "256GB Storage", "Quad Camera","Touchscreen"],
       "availability": true,
       "rating": 4.6
     },
@@ -40,7 +40,7 @@
       "category": "Smartphones",
       "price": 699,
       "description": "Pure Android experience with excellent camera.",
-      "specification": ["8GB RAM", "128GB Storage", "Dual Camera"],
+      "specification": ["8GB RAM", "128GB Storage", "Dual Camera","Touchscreen"],
       "availability": false,
       "rating": 4.3
     },
@@ -51,7 +51,7 @@
       "category": "Smartphones",
       "price": 499,
       "description": "Affordable with high-quality features.",
-      "specification": ["6GB RAM", "128GB Storage", "Quad Camera"],
+      "specification": ["6GB RAM", "128GB Storage", "Quad Camera","Touchscreen"],
       "availability": true,
       "rating": 4.1
     },
@@ -62,7 +62,7 @@
       "category": "Smartphones",
       "price": 949,
       "description": "High-quality display and camera.",
-      "specification": ["8GB RAM", "128GB Storage", "Triple Camera"],
+      "specification": ["8GB RAM", "128GB Storage", "Triple Camera","Touchscreen"],
       "availability": true,
       "rating": 4.4
     },
